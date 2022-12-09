@@ -1,0 +1,64 @@
+
+
+.text{
+    width: 70%;
+    flex: 1;
+    font-weight: bold;
+    text-decoration: solid;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.image1{
+    margin-left: 20rem;
+    width: auto;
+    height: auto;
+    flex: 1;
+    margin-top: 10rem;
+   
+}
+.image1>img{
+
+    border-radius: 26px;
+
+}
+.about{
+    margin-left: 5%;
+    margin-right: 3%;
+    display: flex;
+    justify-content: space-between;
+}
+.about{
+
+display:flex;
+
+}
+.text1{
+
+width: 450px;
+height:310px;
+margin-top:21px;
+margin-left:26px;
+
+}
+
+.logo>P{
+
+font-weight:bolder;
+font-size:21px;
+padding-top:35px;
+padding-left:42px;
+
+}
+.text1 h1 {
+
+
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+/* text-transform: capitalize; */
+color: rgb(40, 47, 68); 
+text-decoration: solid;
+font-weight: bold;  
+font-size: 56px;
+margin-left: 27rem;
+width: fit-content;
+padding :0 0 0 0 ;
+}

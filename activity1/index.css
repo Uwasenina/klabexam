@@ -1,0 +1,24 @@
+.pppp{
+    /* width: 50%; */
+    border: rgb(11, 110, 36) 20px solid;
+}
+.hhh{
+    /* width: 50%; */
+    border: rgb(182, 179, 10) 20px solid;
+}
+h1{
+    color: brown;
+}
+h2{
+    color: rgb(117, 117, 13);
+}
+h3{
+    color: rgb(73, 112, 13);
+}
+.container
+{
+    width: 50%;
+    display: grid;
+    grid-template-columns: 50% 1fr;
+    grid-template-rows: 100% 1fr;
+}

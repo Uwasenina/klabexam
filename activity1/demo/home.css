@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    color: white;
+    margin:0px; 
+    padding:0px; 
+    font-family: 'Open Sans', sans-serif;
+    background-color: black;
+}
+
+.container{
+    margin-right: 3%;
+    margin-left: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation{
+    display: flex;
+    padding: 32px 24px 24px 0px;
+    margin-left: 5%;
+    margin-bottom: 35px;
+}
+
+.navigation .logo{
+    margin-right: 30%;
+}
+
+ul{
+    display: flex;
+}
+
+ul li{
+    margin:  20px 36px 20px;
+    list-style: none;
+}
+
+li a{
+    color: white;
+}
+
+li a:hover {
+    color: rgb(45, 45, 128);
+}
+
+
+.image{
+    margin-left: 25%;
+    width: auto;
+    height: auto;
+    flex: 1;
+    border-radius: 26%;
+}
+
+.text h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* text-transform: capitalize; */
+    color: rgb(40, 47, 68); 
+    text-decoration: solid;
+    font-weight: bold;
+    font-size: 56px;
+    
+}
+
+.text{
+    width: 70%; 
+    flex: 1;
+}
+
+.btn2{
+    color: rgb(45, 45, 128);
+    font-weight: 500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 40px;
+    margin-right: 24px;
+    padding: 8px 16px;
+    border-radius: 8px;
+    border: 2px solid white;
+}
+
+.btn1{
+    color: white;
+    background-color: transparent;
+    font-weight: 500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 40px;
+    margin-right: 24px;
+    padding: 8px 16px;
+    border-radius: 8px;
+    border: 2px solid white;
+}
+
+button:hover{
+    color: white;
+    background-color: transparent;
+    transition: 0.3s;
+}
